@@ -86,23 +86,23 @@ class User:
 
         return cls.user_list
 
-#     @classmethod
-#     def user_exists(cls, name):
+    @classmethod
+    def user_exists(cls, name):
         
-#         '''
-#         Method that checks if a user exists in the user_list
-#         Args:
-#             name: name of user to search 
-#         Returns:
-#             Boolean: true or false (If user exists or not)
-#         '''
+        '''
+        Method that checks if a user exists in the user_list
+        Args:
+            name: name of user to search 
+        Returns:
+            Boolean: true or false (If user exists or not)
+        '''
 
-#         for user in cls.user_list:
-#             if user.user_name == name:
-#                 return True
+        for user in cls.user_list:
+            if user.user_name == name:
+                return True
 
-#         return False
+        return False
 
 
-# if __name__ == '__main__':
-#     unittest.main()
+if __name__ == '__main__':
+    unittest.main()
