@@ -336,29 +336,29 @@ def main():
                     
                     
                     
-#                     #AGC - aut generate credential
-#                     elif short_code == "agc":
+                    #AGC - aut generate credential
+                    elif short_code == "agc":
                         
-#                         '''
-#                         autogenerate credentials password
-#                         '''
+                        '''
+                        autogenerate credentials password
+                        '''
 
 
-#                         print("\n")
-#                         print("New Credentials...")
-#                         print("*"*15)
+                        print("\n")
+                        print("New Credentials...")
+                        print("*"*15)
 
-#                         print("Name of credentials ...")
-#                         credentials_name = input()
+                        print("Name of credentials ...")
+                        credentials_name = input()
 
                         
-#                         # Save created credential & generated password
-#                         save_credentials(Credentials(
-#                             user_name, credentials_name, (create_generated_password(credentials_name))))
-#                         print("\n")
-#                         print(
-#                             f"Credentials for {credentials_name} have been created and saved successfully!")
-#                         print("\n")
+                        # Save created credential & generated password
+                        save_credentials(Credentials(
+                            user_name, credentials_name, (create_generated_password(credentials_name))))
+                        print("\n")
+                        print(
+                            f"Credentials for {credentials_name} have been created and saved successfully!")
+                        print("\n")
 
                     
                     
