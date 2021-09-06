@@ -308,30 +308,30 @@ def main():
 
                     
                     
-#                     #DC - display credential
-#                     elif short_code == "dc":
+                    #DC - display credential
+                    elif short_code == "dc":
                         
-#                         '''
-#                         display credentials
-#                         '''
+                        '''
+                        display credentials
+                        '''
 
 
-#                         if display_credentials(user_name):
-#                             print("\n")
-#                             print(f"{user_name} credentials")
-#                             print("*"*15)
+                        if display_credentials(user_name):
+                            print("\n")
+                            print(f"{user_name} credentials")
+                            print("*"*15)
 
-#                             for credentials in display_credentials(user_name):
-#                                 print(
-#                                     f"Account:  {credentials.credentials_name}")
-#                                 print(
-#                                     f"Password:  {credentials.credentials_password}")
-#                                 print("*"*15)
+                            for credentials in display_credentials(user_name):
+                                print(
+                                    f"Account:  {credentials.credentials_name}")
+                                print(
+                                    f"Password:  {credentials.credentials_password}")
+                                print("*"*15)
 
-#                         else:
-#                             print("\n")
-#                             print("Sorry, no account found...")
-#                             print("\n")
+                        else:
+                            print("\n")
+                            print("Sorry, no account found...")
+                            print("\n")
 
                     
                     
