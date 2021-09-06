@@ -172,37 +172,37 @@ def main():
 
         
         
-#         # User types any short code and press enter key
-#         short_code = input().lower()
+        # User types any short code and press enter key
+        short_code = input().lower()
 
 
 
-#         ##ca - create account
-#         if short_code == "ca":
+        ##ca - create account
+        if short_code == "ca":
 
-#             '''
-#             User Creates Account
-#             '''
-
-
-#             print("\n")
-#             print(" New password locker account: ")
-#             print("*"*15)
-
-#             print("Write User name ...")
-#             user_name = input()
-
-#             print("Write password ...")
-#             user_password = input()
+            '''
+            User Creates Account
+            '''
 
 
+            print("\n")
+            print(" New password locker account: ")
+            print("*"*15)
 
-#             # Creating and saving new user
-#             save_users(create_user(user_name, user_password))
+            print("Write User name ...")
+            user_name = input()
 
-#             print("\n")
-#             print(
-#                 f"Welcome {user_name} \n Your account have been created successfully! \n")
+            print("Write password ...")
+            user_password = input()
+
+
+
+            # Creating and saving new user
+            save_users(create_user(user_name, user_password))
+
+            print("\n")
+            print(
+                f"Welcome {user_name} \n Your account have been created successfully! \n")
 
         
         
