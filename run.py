@@ -19,16 +19,16 @@ def create_user(name, password):
     return new_user
 
 
-# def save_users(user):
+def save_users(user):
     
-#     '''
-#     Function to save created user account
-#     Args
-#         user: user account to be saved
-#     '''
+    '''
+    Function to save created user account
+    Args
+        user: user account to be saved
+    '''
 
 
-#     user.save_user()
+    user.save_user()
 
 
 # def check_existing_users(name):
