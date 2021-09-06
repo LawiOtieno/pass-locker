@@ -1,3 +1,40 @@
+# PASS-LOCKER
+An application developed by Lawrence OTIENO. It's a password locker.
+
+## Description
+An application that allows user to create an account then save his/her credentials like  Facebook login. User can also auto-generate password.
+
+## Technology Used
+* Python
+
+## Set-Up Requirements
+* Stable internet connection.
+* Ubuntu terminal
+* VS Code
+
+## Installation & Running
+* Clone this repo link.\
+Write this in your ubuntu terminal: 
+>**git clone https://github.com/LawiOtieno/pass-locker**
+* Open in vs code, after cloning.\
+Still in terminal write this: 
+>**code .**
+ 
+You will be taken to _vs code_ then open _terminal_ of _vs code_.
+* In _vs code terminal_, write the following.
+>python3 run.py
+* Now follow instructions in creating your account, displaying, auto-generating and saving your credentials.
+
+
+## Contact Information
+For any Suppoert or Feedback, fill free to contact the me through: 
+* Email at lawifirst@gmail.com 
+* Phone on +254708581688
+* Website visit: [LawiOtieno Github](https://github.com/LawiOtieno).
+<p>I am open for any collaboration, recommendation and update suggestions.</p>
+
+
+
 ## License
 [MIT License](https://choosealicense.com/licenses/mit/).
 
