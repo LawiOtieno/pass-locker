@@ -46,40 +46,40 @@ class TestUser(unittest.TestCase):
         '''
 
 
-#         # First save user
-#         self.new_user.save_user()
+        # First save user
+        self.new_user.save_user()
 
-#         test_user = User("terry", "larry")
+        test_user = User("terry", "larry")
 
-#         test_user.save_user()
+        test_user.save_user()
 
-#         found_credentials = User.log_in("terry", "larry")
-
-
-#         self.assertEqual(found_credentials, Credentials.credentials_list)
+        found_credentials = User.log_in("terry", "larry")
 
 
+        self.assertEqual(found_credentials, Credentials.credentials_list)
 
-#     def test_user_exists(self):
+
+
+    def test_user_exists(self):
         
-#         '''
-#         Test to return boolean if user does not exist
-#         '''
+        '''
+        Test to return boolean if user does not exist
+        '''
 
 
 
-#         # First, saving user
-#         self.new_user.save_user()
+        # First, saving user
+        self.new_user.save_user()
 
-#         test_user = User("LawiOtieno", "Lawi4321")
+        test_user = User("LawiOtieno", "Lawi4321")
 
-#         test_user.save_user()
+        test_user.save_user()
 
-#         # If user exists
-#         user_exists = User.user_exists("LawiOtieno")
+        # If user exists
+        user_exists = User.user_exists("LawiOtieno")
 
-#         self.assertTrue(user_exists)
+        self.assertTrue(user_exists)
 
 
-# if __name__ == '__main__':
-#     unittest.main(verbosity = 2)
+if __name__ == '__main__':
+    unittest.main(verbosity = 2)
