@@ -1,22 +1,22 @@
-# from user import User
-# from credentials import Credentials
+from user import User
+from credentials import Credentials
 
-# '''
-# running the application
-# '''
+'''
+running the application
+'''
 
 
-# def create_user(name, password):
-#     '''
-#     Function that creates a user account
-#     Args
-#         name: user chosen name
-#         password: select password for account
-#     '''
+def create_user(name, password):
+    '''
+    Function that creates a user account
+    Args
+        name: user chosen name
+        password: select password for account
+    '''
 
-#     new_user = User(name, password)
+    new_user = User(name, password)
 
-#     return new_user
+    return new_user
 
 
 # def save_users(user):
