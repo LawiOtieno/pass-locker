@@ -83,49 +83,49 @@ def create_credentails(user_name, name, password):
     return new_credentails
 
 
-# def save_credentials(credentials):
+def save_credentials(credentials):
 
-#     '''
-#     Function to save credentials
-#     Args:
-#         credentials: credentials to be saved
-#     '''
+    '''
+    Function to save credentials
+    Args:
+        credentials: credentials to be saved
+    '''
 
-#     credentials.save_credentials()
-
-
-# def check_existing_credentials(name):
-
-#     '''
-#     Function that checks existence of user credentials
-#     Args:
-#         name: credentials name
-#     '''
-
-#     return Credentials.credentials_exists(name)
+    credentials.save_credentials()
 
 
-# def display_credentials(password):
+def check_existing_credentials(name):
 
-#     '''
-#     Function that returns all the saved credentials
-#     '''
+    '''
+    Function that checks existence of user credentials
+    Args:
+        name: credentials name
+    '''
 
-#     return Credentials.display_credentials(password)
-
-
-# def create_generated_password(name):
-
-#     '''
-#     Function that generates a password for the user 
-#     Args:
-#         name : the name of the account
-#     '''
+    return Credentials.credentials_exists(name)
 
 
-#     password = Credentials.generated_password()
+def display_credentials(password):
 
-#     return password
+    '''
+    Function that returns all the saved credentials
+    '''
+
+    return Credentials.display_credentials(password)
+
+
+def create_generated_password(name):
+
+    '''
+    Function that generates a password for the user 
+    Args:
+        name : the name of the account
+    '''
+
+
+    password = Credentials.generated_password()
+
+    return password
 
 
 # def find_credentials(credentials_name, credentials_password):
