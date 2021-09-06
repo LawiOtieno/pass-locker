@@ -405,22 +405,22 @@ def main():
                         print("\n")
         
         
-#         ##exp - exit password
-#         elif short_code == "exp":
-#             """
-#             Exiting password locker
-#             """
-#             print("\n")
-#             print("Goodbye, you are out...")
+        ##exp - exit password
+        elif short_code == "exp":
+            """
+            Exiting password locker
+            """
+            print("\n")
+            print("Goodbye, you are out...")
 
-#             break
+            break
 
-#         else:
-#             print("\n")
-#             print(f""" Invalid entry please check {short_code}? 
-#             Please, use correct code """)
-#             print("\n")
+        else:
+            print("\n")
+            print(f""" Invalid entry please check {short_code}? 
+            Please, use correct code """)
+            print("\n")
 
 
-# if __name__ == '__main__':
-#     main()
+if __name__ == '__main__':
+    main()
