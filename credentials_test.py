@@ -1,59 +1,59 @@
-# import unittest  # Import unittest module
-# from credentials import Credentials  # Import Credentials  class
+import unittest  # Import unittest module
+from credentials import Credentials  # Import Credentials  class
 
 
-# class TestCredentials(unittest.TestCase):
+class TestCredentials(unittest.TestCase):
 
-#     '''
-#     Test class that defines test cases for the credentials module
-#     Args:
-#         unittest.TestCase: test class, help create test cases for the application
-#     '''
+    '''
+    Test class that defines test cases for the credentials module
+    Args:
+        unittest.TestCase: test class, help create test cases for the application
+    '''
 
 
 
-#     def setUp(self):
+    def setUp(self):
         
-#         '''
-#         setUp() method that will run before each test case
-#         '''
+        '''
+        setUp() method that will run before each test case
+        '''
 
 
-#         # Creating credentials object
-#         self.new_credentials = Credentials("LawiOtieno", "twitter", "lawi@gm")
+        # Creating credentials object
+        self.new_credentials = Credentials("LawiOtieno", "twitter", "lawi@gm")
 
-#     def tearDown(self):
+    def tearDown(self):
 
-#         '''
-#         tearDown() method to clean-up after every test case is run
-#         '''
+        '''
+        tearDown() method to clean-up after every test case is run
+        '''
 
 
-#         Credentials.credentials_list = []
+        Credentials.credentials_list = []
 
-#     def test_init(self):
+    def test_init(self):
         
-#         '''
-#         TestCase: test to see whether object is properly initialized
-#         '''
+        '''
+        TestCase: test to see whether object is properly initialized
+        '''
 
         
-#         self.assertEqual(self.new_credentials.user_name, "LawiOtieno")
-#         self.assertEqual(self.new_credentials.credentials_name, "twitter")
-#         self.assertEqual(self.new_credentials.credentials_password, "lawi@gm")
+        self.assertEqual(self.new_credentials.user_name, "LawiOtieno")
+        self.assertEqual(self.new_credentials.credentials_name, "twitter")
+        self.assertEqual(self.new_credentials.credentials_password, "lawi@gm")
 
-#     def test_save_credentials(self):
+    def test_save_credentials(self):
         
-#         '''
-#         Test to see whether user is saved to user_list
-#         '''
+        '''
+        Test to see whether user is saved to user_list
+        '''
 
 
-#         self.new_credentials.save_credentials()
+        self.new_credentials.save_credentials()
 
-#         self.assertEqual(len(Credentials.credentials_list), 1)
+        self.assertEqual(len(Credentials.credentials_list), 1)
 
-#     def test_save_multiple_credentials(self):
+    def test_save_multiple_credentials(self):
         
 #         '''
 #         TestCase: check to see if multiple credentials can be saved to credentials list
