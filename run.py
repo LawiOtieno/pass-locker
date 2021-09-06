@@ -31,15 +31,15 @@ def save_users(user):
     user.save_user()
 
 
-# def check_existing_users(name):
+def check_existing_users(name):
 
-#     '''
-#     Function that checks existence of user account name
-#     Args:
-#         name : name of user account
-#     '''
+    '''
+    Function that checks existence of user account name
+    Args:
+        name : name of user account
+    '''
 
-#     return User.user_exist(name)
+    return User.user_exist(name)
 
 
 # def user_log_in(name, password):
