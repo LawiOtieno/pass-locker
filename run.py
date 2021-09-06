@@ -128,26 +128,26 @@ def create_generated_password(name):
     return password
 
 
-# def find_credentials(credentials_name, credentials_password):
+def find_credentials(credentials_name, credentials_password):
     
-#     '''
-#     Function to find credentials based on credentials name given
-#     '''
+    '''
+    Function to find credentials based on credentials name given
+    '''
 
 
-#     return Credentials.find_credentials(credentials_name, credentials_password)
+    return Credentials.find_credentials(credentials_name, credentials_password)
 
 
-# def delete_credentials(name):
+def delete_credentials(name):
     
-#     '''
-#     Function to delete credentials
-#     Args:
-#         name: name of credentials
-#     '''
+    '''
+    Function to delete credentials
+    Args:
+        name: name of credentials
+    '''
 
 
-#     Delete = Credentials.delete_credentials()
+    Delete = Credentials.delete_credentials()
 
 
 # # Main function
