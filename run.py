@@ -257,54 +257,54 @@ def main():
                 
                 Use the following short codes for more...""")
 
-#                 while True:
+                while True:
 
-#                     '''
-#                     loop for running functions after login login
-#                     '''
+                    '''
+                    loop for running functions after login login
+                    '''
 
 
-#                     print(""" Short codes:
-#                     ac - add credentials  \n
-#                     dc - display credentials \n
-#                     agc - autogenerate credentials password \n
-#                     dlt - delete credentials \n
-#                     ext - exit credentials """)
-
-                    
-                    
-#                     # User inputted short codes
-#                     short_code = input().lower()
+                    print(""" Short codes:
+                    ac - add credentials  \n
+                    dc - display credentials \n
+                    agc - autogenerate credentials password \n
+                    dlt - delete credentials \n
+                    ext - exit credentials """)
 
                     
-#                     #AC
-#                     if short_code == "ac":
+                    
+                    # User inputted short codes
+                    short_code = input().lower()
 
-#                         '''
-#                         Add new credentials
-#                         '''
+                    
+                    #AC
+                    if short_code == "ac":
+
+                        '''
+                        Add new credentials
+                        '''
 
 
-#                         print("\n")
-#                         print("Add New Credentials...")
-#                         print("*"*15)
+                        print("\n")
+                        print("Add New Credentials...")
+                        print("*"*15)
 
-#                         print("Name of credential ...")
-#                         credentials_name = input()
+                        print("Name of credential ...")
+                        credentials_name = input()
 
-#                         print("Password of credential ...")
-#                         credentials_password = input()
+                        print("Password of credential ...")
+                        credentials_password = input()
 
                         
                         
-#                         # Creating and saving new user credentials
-#                         save_credentials(create_credentails(
-#                             user_name, credentials_name, credentials_password))
+                        # Creating and saving new user credentials
+                        save_credentials(create_credentails(
+                            user_name, credentials_name, credentials_password))
 
-#                         print("\n")
-#                         print(
-#                             f"Credentials for {credentials_name} have been saved successfully \n")
-#                         print("\n")
+                        print("\n")
+                        print(
+                            f"Credentials for {credentials_name} have been saved successfully \n")
+                        print("\n")
 
                     
                     
