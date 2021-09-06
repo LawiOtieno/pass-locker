@@ -1,49 +1,49 @@
-# import unittest
-# from user import User
-# from credentials import Credentials
+import unittest
+from user import User
+from credentials import Credentials
 
 
-# class TestUser(unittest.TestCase):
+class TestUser(unittest.TestCase):
     
-#     '''
-#     Test class that tests cases for the User class
-#     Args:
-#         unittest.Testcase: class that helps create test cases
-#     '''
+    '''
+    Test class that tests cases for the User class
+    Args:
+        unittest.Testcase: class that helps create test cases
+    '''
 
-#     def setUp(self):
+    def setUp(self):
         
-#         '''
-#         setUp() method to run before each test case
-#         '''
+        '''
+        setUp() method to run before each test case
+        '''
 
-#         # Create user object
-#         self.new_user = User("LawiOtieno", "Lawi4321")
+        # Create user object
+        self.new_user = User("LawiOtieno", "Lawi4321")
 
-#     def tearDown(self):
+    def tearDown(self):
         
-#         '''
-#         Method to clean-up after each test
-#         '''
+        '''
+        Method to clean-up after each test
+        '''
 
 
-#         User.user_list = []
+        User.user_list = []
 
-#     def test_init(self):
+    def test_init(self):
         
-#         '''
-#         Testing if object is properly initialized
-#         '''
+        '''
+        Testing if object is properly initialized
+        '''
 
-#         self.assertEqual(self.new_user.user_name, "LawiOtieno")
-#         self.assertEqual(self.new_user.user_password, "Lawi4321")
+        self.assertEqual(self.new_user.user_name, "LawiOtieno")
+        self.assertEqual(self.new_user.user_password, "Lawi4321")
 
-#     def test_log_in(self):
+    def test_log_in(self):
         
 
-#         '''
-#         Test to establish whether user can login
-#         '''
+        '''
+        Test to establish whether user can login
+        '''
 
 
 #         # First save user
