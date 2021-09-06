@@ -55,70 +55,70 @@ class TestCredentials(unittest.TestCase):
 
     def test_save_multiple_credentials(self):
         
-#         '''
-#         TestCase: check to see if multiple credentials can be saved to credentials list
-#         '''
+        '''
+        TestCase: check to see if multiple credentials can be saved to credentials list
+        '''
 
 
-#         generated_password = self.new_credentials.generated_password()
+        generated_password = self.new_credentials.generated_password()
 
-#         self.assertEqual(len(generated_password), 15)
+        self.assertEqual(len(generated_password), 15)
 
-#     def test_display_credentials(self):
+    def test_display_credentials(self):
         
-#         '''
-#         Test to see if user can list all saved credentials
-#         '''
+        '''
+        Test to see if user can list all saved credentials
+        '''
 
-#         # Saving new credentials
-#         self.new_credentials.save_credentials()
+        # Saving new credentials
+        self.new_credentials.save_credentials()
 
-#         test_credentials = Credentials("matthew", "sam", "mrk24")
+        test_credentials = Credentials("matthew", "sam", "mrk24")
 
-#         test_credentials.save_credentials()
+        test_credentials.save_credentials()
 
-#         test_credentials = Credentials("matthew", "john", "cate")
+        test_credentials = Credentials("matthew", "john", "cate")
 
-#         test_credentials.save_credentials()
+        test_credentials.save_credentials()
 
-#         self.assertEqual(len(Credentials.display_credentials("matthew")), 2)
+        self.assertEqual(len(Credentials.display_credentials("matthew")), 2)
 
-#     def test_credentials_exist(self):
+    def test_credentials_exist(self):
     
-#         '''
-#         Test to check if we can return boolean for credentials not found
-#         '''
+        '''
+        Test to check if we can return boolean for credentials not found
+        '''
 
 
-#         self.new_credentials.save_credentials()
+        self.new_credentials.save_credentials()
 
-#         test_credentials = Credentials(
-#             "matthew", "sam", "mrk24")  # new credentials
+        test_credentials = Credentials(
+            "matthew", "sam", "mrk24")  # new credentials
 
-#         test_credentials.save_credentials()
+        test_credentials.save_credentials()
 
-#         # Use of contact exist method
-#         credentials_exists = Credentials.credentials_exists("sam")
+        # Use of contact exist method
+        credentials_exists = Credentials.credentials_exists("sam")
 
-#         self.assertTrue(credentials_exists)
+        self.assertTrue(credentials_exists)
 
-#     def test_find_credentials(self):
+    def test_find_credentials(self):
         
-#         '''
-#         Test to check if we can find credentials by name and display information
-#         '''
+        '''
+        Test to check if we can find credentials by name and display information
+        '''
 
 
-#         self.new_credentials.save_credentials()
-#         test_credentials = Credentials(
-#             "mercy", "twitter", "twitter254")  # new credentials
-#         test_credentials.save_credentials()
+        self.new_credentials.save_credentials()
+        test_credentials = Credentials(
+            "mercy", "twitter", "twitter254")  # new credentials
+        test_credentials.save_credentials()
 
-#         found_credentials = Credentials.find_credentials("twitter", "facebook")
+        found_credentials = Credentials.find_credentials("twitter", "facebook")
 
-#         self.assertEqual(found_credentials.credentials_name,
-#                          test_credentials.credentials_name)
+        self.assertEqual(found_credentials.credentials_name,
+                         test_credentials.credentials_name)
 
 
-# if __name__ == '__main__':
-#     unittest.main()
+if __name__ == '__main__':
+    unittest.main()
