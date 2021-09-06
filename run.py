@@ -208,25 +208,25 @@ def main():
         
         
         
-#         ##dn - dispay name
-#         elif short_code == "dn":
+        ##dn - dispay name
+        elif short_code == "dn":
         
-#             '''
-#             Display names of users & details
-#             '''
+            '''
+            Display names of users & details
+            '''
 
-#             if display_users():
-#                 print("\n")
-#                 print("See list of current users & details below \n")
-#                 print("*"*15)
+            if display_users():
+                print("\n")
+                print("See list of current users & details below \n")
+                print("*"*15)
 
-#                 for user in display_users():
-#                     print(f"{user.user_name}")
-#                     print("*"*15)
-#             else:
-#                 print("\n")
-#                 print("password locker does not have a user yet. \n  Would you be the first User?")
-#                 print("\n")
+                for user in display_users():
+                    print(f"{user.user_name}")
+                    print("*"*15)
+            else:
+                print("\n")
+                print("password locker does not have a user yet. \n  Would you be the first User?")
+                print("\n")
 
         
         
