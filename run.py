@@ -57,30 +57,30 @@ def user_log_in(name, password):
         return User.log_in(name, password)
 
 
-# def display_users():
+def display_users():
 
-#     '''
-#     Function that returns all saved users 
-#     '''
-
-
-#     return User.display_user()
+    '''
+    Function that returns all saved users 
+    '''
 
 
-# def create_credentails(user_name, name, password):
-
-#     '''
-#     Function to create a credential 
-#     Args:
-#         user_name: username for Password Locker
-#         name: name of the account 
-#         password: associated password for the account
-#     '''
+    return User.display_user()
 
 
-#     new_credentails = Credentials(user_name, name, password)
+def create_credentails(user_name, name, password):
 
-#     return new_credentails
+    '''
+    Function to create a credential 
+    Args:
+        user_name: username for Password Locker
+        name: name of the account 
+        password: associated password for the account
+    '''
+
+
+    new_credentails = Credentials(user_name, name, password)
+
+    return new_credentails
 
 
 # def save_credentials(credentials):
