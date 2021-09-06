@@ -217,7 +217,8 @@ def main():
 
             if display_users():
                 print("\n")
-                print("See list of current users & details below \n")
+                print("########## Output Below ##########")
+                print("See list of current usersnames below \n")
                 print("*"*15)
 
                 for user in display_users():
@@ -225,7 +226,8 @@ def main():
                     print("*"*15)
             else:
                 print("\n")
-                print("password locker does not have a user yet. \n  Would you be the first User?")
+                print("########## Output Below ##########")
+                print("password locker does not have a user yet. \n  Would you like to create your?")
                 print("\n")
 
         
@@ -246,6 +248,7 @@ def main():
 
             if user_log_in(user_name, user_password) == None:
                 print("\n")
+                print("########## Output Below ##########")
                 print("Inputted username or password is invalid, try again or Create a New Account")
                 print("\n")
 
@@ -253,6 +256,7 @@ def main():
 
                 user_log_in(user_name, user_password)
                 print("\n")
+                print("########## Output Below ##########")
                 print(f"""Welcome {user_name} You have successfully logged into your Account\n 
                 
                 Use the following short codes for more...""")
@@ -289,7 +293,7 @@ def main():
                         print("Add New Credentials...")
                         print("*"*15)
 
-                        print("Name of credential ...")
+                        print("Write credential name ...")
                         credentials_name = input()
 
                         print("Password of credential ...")
@@ -302,8 +306,9 @@ def main():
                             user_name, credentials_name, credentials_password))
 
                         print("\n")
+                        print("########## Output Below ##########")
                         print(
-                            f"Credentials for {credentials_name} have been saved successfully \n")
+                            f"Credentials for {credentials_name} have been saved successfully. (To view, type: dc) \n")
                         print("\n")
 
                     
@@ -330,6 +335,7 @@ def main():
 
                         else:
                             print("\n")
+                            print("########## Output Below ##########")
                             print("Sorry, no account found...")
                             print("\n")
 
@@ -353,11 +359,11 @@ def main():
 
                         
                         # Save created credential & generated password
-                        save_credentials(Credentials(
-                            user_name, credentials_name, (create_generated_password(credentials_name))))
+                        save_credentials(Credentials(user_name, credentials_name, (create_generated_password(credentials_name))))
                         print("\n")
+                        print("########## Output Below ##########")
                         print(
-                            f"Credentials for {credentials_name} have been created and saved successfully!")
+                            f"Credentials for {credentials_name} have been created and saved successfully, (To view, type: dc)!")
                         print("\n")
 
                     
@@ -378,9 +384,14 @@ def main():
                             delete_credentials_name = find_credentials(
                                 credentials_name, credentials_password)
                             
+                            
+                            print("\n")
+                            print("########## Output Below ##########")
                             print(
                                 f"Credentials for: {credentials_name} has been deleted Successfully. \n")
                         else:
+                            print("\n")
+                            print("########## Output Below ##########")
                             print("No Credentials found!!!")
 
                     
@@ -393,6 +404,8 @@ def main():
                         '''
 
 
+                        print("\n")
+                        print("########## Output Below ##########")
                         print(
                             f"{user_name}, you have exited Password Locker. \n  Login again...")
                         print("\n")
@@ -400,6 +413,7 @@ def main():
 
                     else:
                         print("\n")
+                        print("########## Output Below ##########")
                         print(f""" {short_code} seems to be incorrect. \n 
                         please use the short codes provided""")
                         print("\n")
@@ -411,12 +425,13 @@ def main():
             Exiting password locker
             """
             print("\n")
-            print("Goodbye, you are out...")
+            print("Goodbye, you are out... (...to return just type: python3 run.py)")
 
             break
 
         else:
             print("\n")
+            print("########## Output Below ##########")
             print(f""" Invalid entry please check {short_code}? 
             Please, use correct code """)
             print("\n")
