@@ -230,32 +230,32 @@ def main():
 
         
         
-#         ##log - login
-#         elif short_code == "log":
-#             """
-#             code to allow user log into password locker
-#             """
-#             print("\n")
-#             print("*"*15)
-#             print("Login your Password Locker Account")
-#             print("Enter username...")
-#             user_name = input()
+        ##log - login
+        elif short_code == "log":
+            """
+            code to allow user log into password locker
+            """
+            print("\n")
+            print("*"*15)
+            print("Login your Password Locker Account")
+            print("Enter username...")
+            user_name = input()
 
-#             print("Enter password...")
-#             user_password = input()
+            print("Enter password...")
+            user_password = input()
 
-#             if user_log_in(user_name, user_password) == None:
-#                 print("\n")
-#                 print("Inputted username or password is invalid, try again or Create a New Account")
-#                 print("\n")
+            if user_log_in(user_name, user_password) == None:
+                print("\n")
+                print("Inputted username or password is invalid, try again or Create a New Account")
+                print("\n")
 
-#             else:
+            else:
 
-#                 user_log_in(user_name, user_password)
-#                 print("\n")
-#                 print(f"""Welcome {user_name} You have successfully logged into your Account\n 
+                user_log_in(user_name, user_password)
+                print("\n")
+                print(f"""Welcome {user_name} You have successfully logged into your Account\n 
                 
-#                 Use the following short codes for more...""")
+                Use the following short codes for more...""")
 
 #                 while True:
 
