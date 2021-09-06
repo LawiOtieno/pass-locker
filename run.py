@@ -150,25 +150,25 @@ def delete_credentials(name):
     Delete = Credentials.delete_credentials()
 
 
-# # Main function
-# def main():
+# Main function
+def main():
     
-#     '''
-#     Function to run the password locker application
-#     '''
+    '''
+    Function to run the password locker application
+    '''
 
-#     while True:
+    while True:
         
-#         '''
-#         loop to running the entire application
-#         '''
+        '''
+        loop to running the entire application
+        '''
 
 
-#         print("""Short Codes:
-#         ca - Create Account: password Locker account \n
-#         dn - Display names of users & details \n
-#         log - Login your account \n
-#         exp - Exit password locker account """)
+        print("""Short Codes:
+        ca - Create Account: password Locker account \n
+        dn - Display names of users & details \n
+        log - Login your account \n
+        exp - Exit password locker account """)
 
         
         
