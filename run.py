@@ -385,24 +385,24 @@ def main():
 
                     
                     
-#                     #EXT - exit
-#                     elif short_code == "ext":
+                    #EXT - exit
+                    elif short_code == "ext":
 
-#                         '''
-#                         Exit password locker account
-#                         '''
+                        '''
+                        Exit password locker account
+                        '''
 
 
-#                         print(
-#                             f"{user_name}, you have exited Password Locker. \n  Login again...")
-#                         print("\n")
-#                         break
+                        print(
+                            f"{user_name}, you have exited Password Locker. \n  Login again...")
+                        print("\n")
+                        break
 
-#                     else:
-#                         print("\n")
-#                         print(f""" {short_code} seems to be incorrect. \n 
-#                         please use the short codes provided""")
-#                         print("\n")
+                    else:
+                        print("\n")
+                        print(f""" {short_code} seems to be incorrect. \n 
+                        please use the short codes provided""")
+                        print("\n")
         
         
 #         ##exp - exit password
