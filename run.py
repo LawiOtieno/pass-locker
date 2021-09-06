@@ -363,25 +363,25 @@ def main():
                     
                     
                     
-#                     #DLT - delete
-#                     elif short_code == "dlt":
-#                         """
-#                         delete credentials
-#                         """
-#                         print("Enter name of credential you no longer need...")
-#                         credentials_name = input()
+                    #DLT - delete
+                    elif short_code == "dlt":
+                        """
+                        delete credentials
+                        """
+                        print("Enter name of credential you no longer need...")
+                        credentials_name = input()
 
-#                         print("Enter password for the above credentials...")
-#                         credentials_password = input()
+                        print("Enter password for the above credentials...")
+                        credentials_password = input()
 
-#                         if check_existing_credentials(credentials_name):
-#                             delete_credentials_name = find_credentials(
-#                                 credentials_name, credentials_password)
+                        if check_existing_credentials(credentials_name):
+                            delete_credentials_name = find_credentials(
+                                credentials_name, credentials_password)
                             
-#                             print(
-#                                 f"Credentials for: {credentials_name} has been deleted Successfully. \n")
-#                         else:
-#                             print("No Credentials found!!!")
+                            print(
+                                f"Credentials for: {credentials_name} has been deleted Successfully. \n")
+                        else:
+                            print("No Credentials found!!!")
 
                     
                     
