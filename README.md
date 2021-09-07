@@ -11,6 +11,7 @@ An application that allows user to create an account then save his/her credentia
 * Stable internet connection.
 * Ubuntu terminal
 * VS Code
+* Python3.9
 
 ## Installation & Running
 * Clone this repo.\
@@ -22,11 +23,23 @@ Still in _terminal_ write this:
 * Open cloned repo in _vs code_.\
 Still in terminal write this: 
 >**code .**
- 
 You will be taken to _vs code_ then open _terminal_ of _vs code_.
+* In _vs code terminal_, write the following.\
+You can run tests using the folowing:
+>python3.9 user_test.py
+>python3.9 credentials_test.py
+
 * In _vs code terminal_, write the following.
->python3 run.py
+>python3.9 run.py
 * Now follow instructions in creating your account, displaying, auto-generating and saving your credentials.
+
+
+|SHORT-CODE|WHAT SHORT REPRESENTS|
+|----------|---------------------|
+|ca|Create Account: password Locker account|
+|dn|Display names of users & details|
+|log|Login your account|
+|exp|Exit password locker account|
 
 
 ## Contact Information
