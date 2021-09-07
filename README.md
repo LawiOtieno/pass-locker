@@ -13,10 +13,13 @@ An application that allows user to create an account then save his/her credentia
 * VS Code
 
 ## Installation & Running
-* Clone this repo link.\
-Write this in your ubuntu terminal: 
+* Clone this repo.\
+Write this in your ubuntu _terminal_: 
 >**git clone https://github.com/LawiOtieno/pass-locker**
-* Open in vs code, after cloning.\
+* _CD_ into the cloned repo.\
+Still in _terminal_ write this:
+>**cd pass-locker**
+* Open cloned repo in _vs code_.\
 Still in terminal write this: 
 >**code .**
  
