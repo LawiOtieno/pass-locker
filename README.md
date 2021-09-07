@@ -20,20 +20,20 @@ Write this in your ubuntu _terminal_:
 * _CD_ into the cloned repo.\
 Still in _terminal_ write this:
 >**cd pass-locker**
-* Open cloned repo in _vs code_.\
+* Opening cloned repo in _vs code_.\
 Still in terminal write this: 
 >**code .**
-<p> </p>
-You will be taken to _vs code_ then open _terminal_ of _vs code_.
-* In _vs code terminal_, write the following.\
-You can run tests using the folowing:
+ 
+You will be taken to _vs code_, then open _terminal_ of _vs code_.
+* In _**vs code** terminal_, run tests.\
+You can run tests using the following:
 >python3.9 user_test.py
-<p> </p>
+
 >python3.9 credentials_test.py
 
-* In _vs code terminal_, write the following.
+* Still in  _**vs code** terminal_, you can run the application.
 >python3.9 run.py
-* Now follow instructions in creating your account, displaying, auto-generating and saving your credentials.
+* Now, follow instructions in **creating** your account, **display**ing, **login** & saving your credentials and even **exit** application.
 
 
 |SHORT-CODE|WHAT SHORT REPRESENTS|
