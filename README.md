@@ -23,12 +23,12 @@ Still in _terminal_ write this:
 * Open cloned repo in _vs code_.\
 Still in terminal write this: 
 >**code .**
-<br>
+<p> </p>
 You will be taken to _vs code_ then open _terminal_ of _vs code_.
 * In _vs code terminal_, write the following.\
 You can run tests using the folowing:
 >python3.9 user_test.py
-<br>
+<p> </p>
 >python3.9 credentials_test.py
 
 * In _vs code terminal_, write the following.
